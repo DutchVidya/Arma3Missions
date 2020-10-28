@@ -1,0 +1,4715 @@
+version=12;
+class Mission
+{
+	addOns[]=
+	{
+		"a3_map_altis",
+		"A3_Characters_F_OPFOR",
+		"A3_Characters_F_BLUFOR",
+		"a3_characters_f_gamma",
+		"A3_Characters_F_INDEP"
+	};
+	addOnsAuto[]=
+	{
+		"A3_Characters_F_BLUFOR",
+		"A3_Characters_F_OPFOR",
+		"A3_Characters_F_INDEP",
+		"a3_characters_f_gamma",
+		"a3_map_altis"
+	};
+	randomSeed=9029594;
+	class Intel
+	{
+		briefingName="DM 40 Vanilla: Altis v1.0";
+		overviewText="Eighty-nine deathmatches in one!";
+		resistanceWest=0;
+		startWeather=0.19999999;
+		startWind=0;
+		forecastWeather=0.19999999;
+		forecastWind=0;
+		forecastWaves=0;
+		rainForced=1;
+		lightningsForced=1;
+		wavesForced=1;
+		windForced=1;
+		year=2035;
+		month=7;
+		day=8;
+		hour=13;
+		minute=0;
+		startFogDecay=0.0049333;
+		forecastFogDecay=0.0049333;
+	};
+	class Groups
+	{
+		items=40;
+		class Item0
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23000,3.1900001,18000};
+					id=0;
+					side="WEST";
+					vehicle="B_Soldier_lite_F";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=1;
+					text="p1";
+				};
+			};
+		};
+		class Item1
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23001,3.1900001,18000};
+					id=1;
+					side="EAST";
+					vehicle="O_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p2";
+				};
+			};
+		};
+		class Item2
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23002,3.1900001,18000};
+					id=2;
+					side="GUER";
+					vehicle="I_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p3";
+				};
+			};
+		};
+		class Item3
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23003,3.1900001,18000};
+					id=3;
+					side="WEST";
+					vehicle="B_G_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p4";
+				};
+			};
+		};
+		class Item4
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23000,3.1900001,17999};
+					id=4;
+					side="WEST";
+					vehicle="B_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p5";
+				};
+			};
+		};
+		class Item5
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23001,3.1900001,17999};
+					id=5;
+					side="EAST";
+					vehicle="O_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p6";
+				};
+			};
+		};
+		class Item6
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23002,3.1900001,17999};
+					id=6;
+					side="GUER";
+					vehicle="I_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p7";
+				};
+			};
+		};
+		class Item7
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23003,3.1900001,17999};
+					id=7;
+					side="WEST";
+					vehicle="B_G_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p8";
+				};
+			};
+		};
+		class Item8
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23000,3.1900001,17998};
+					id=8;
+					side="WEST";
+					vehicle="B_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p9";
+				};
+			};
+		};
+		class Item9
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23001,3.1900001,17998};
+					id=9;
+					side="EAST";
+					vehicle="O_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p10";
+				};
+			};
+		};
+		class Item10
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23002,3.1900001,17998};
+					id=10;
+					side="GUER";
+					vehicle="I_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p11";
+				};
+			};
+		};
+		class Item11
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23003,3.1900001,17998};
+					id=11;
+					side="WEST";
+					vehicle="B_G_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p12";
+				};
+			};
+		};
+		class Item12
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23000,3.1900001,17997};
+					id=12;
+					side="WEST";
+					vehicle="B_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p13";
+				};
+			};
+		};
+		class Item13
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23001,3.1900001,17997};
+					id=13;
+					side="EAST";
+					vehicle="O_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p14";
+				};
+			};
+		};
+		class Item14
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23002,3.1900001,17997};
+					id=14;
+					side="GUER";
+					vehicle="I_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p15";
+				};
+			};
+		};
+		class Item15
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23003,3.1900001,17997};
+					id=15;
+					side="WEST";
+					vehicle="B_G_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p16";
+				};
+			};
+		};
+		class Item16
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23000,3.1900001,17996};
+					id=16;
+					side="WEST";
+					vehicle="B_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p17";
+				};
+			};
+		};
+		class Item17
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23001,3.1900001,17996};
+					id=17;
+					side="EAST";
+					vehicle="O_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p18";
+				};
+			};
+		};
+		class Item18
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23002,3.1900001,17996};
+					id=18;
+					side="GUER";
+					vehicle="I_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p19";
+				};
+			};
+		};
+		class Item19
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23003,3.1900001,17996};
+					id=19;
+					side="WEST";
+					vehicle="B_G_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p20";
+				};
+			};
+		};
+		class Item20
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23000,3.1900001,17995};
+					id=20;
+					side="WEST";
+					vehicle="B_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p21";
+				};
+			};
+		};
+		class Item21
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23001,3.1900001,17995};
+					id=21;
+					side="EAST";
+					vehicle="O_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p22";
+				};
+			};
+		};
+		class Item22
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23002,3.1900001,17995};
+					id=22;
+					side="GUER";
+					vehicle="I_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p23";
+				};
+			};
+		};
+		class Item23
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23003,3.1900001,17995};
+					id=23;
+					side="WEST";
+					vehicle="B_G_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p24";
+				};
+			};
+		};
+		class Item24
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23000,3.1900001,17994};
+					id=24;
+					side="WEST";
+					vehicle="B_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p25";
+				};
+			};
+		};
+		class Item25
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23001,3.1900001,17994};
+					id=25;
+					side="EAST";
+					vehicle="O_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p26";
+				};
+			};
+		};
+		class Item26
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23002,3.1900001,17994};
+					id=26;
+					side="GUER";
+					vehicle="I_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p27";
+				};
+			};
+		};
+		class Item27
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23003,3.1900001,17994};
+					id=27;
+					side="WEST";
+					vehicle="B_G_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p28";
+				};
+			};
+		};
+		class Item28
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23000,3.1900001,17993};
+					id=28;
+					side="WEST";
+					vehicle="B_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p29";
+				};
+			};
+		};
+		class Item29
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23001,3.1900001,17993};
+					id=29;
+					side="EAST";
+					vehicle="O_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p30";
+				};
+			};
+		};
+		class Item30
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23002,3.1900001,17993};
+					id=30;
+					side="GUER";
+					vehicle="I_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p31";
+				};
+			};
+		};
+		class Item31
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23003,3.1900001,17993};
+					id=31;
+					side="WEST";
+					vehicle="B_G_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p32";
+				};
+			};
+		};
+		class Item32
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23000,3.1900001,17992};
+					id=32;
+					side="WEST";
+					vehicle="B_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p33";
+				};
+			};
+		};
+		class Item33
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23001,3.1900001,17992};
+					id=33;
+					side="EAST";
+					vehicle="O_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p34";
+				};
+			};
+		};
+		class Item34
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23002,3.1900001,17992};
+					id=34;
+					side="GUER";
+					vehicle="I_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p35";
+				};
+			};
+		};
+		class Item35
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23003,3.1900001,17992};
+					id=35;
+					side="WEST";
+					vehicle="B_G_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p36";
+				};
+			};
+		};
+		class Item36
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23000,3.1900001,17991};
+					id=36;
+					side="WEST";
+					vehicle="B_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p37";
+				};
+			};
+		};
+		class Item37
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23001,3.1900001,17991};
+					id=37;
+					side="EAST";
+					vehicle="O_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p38";
+				};
+			};
+		};
+		class Item38
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23002,3.1900001,17991};
+					id=38;
+					side="GUER";
+					vehicle="I_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p39";
+				};
+			};
+		};
+		class Item39
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23003,3.1900001,17991};
+					id=39;
+					side="WEST";
+					vehicle="B_G_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="p40";
+				};
+			};
+		};
+	};
+	class Markers
+	{
+		items=1;
+		class Item0
+		{
+			position[]={23150.193,3.1900001,18857.516};
+			name="respawn_independent";
+			markerType="RECTANGLE";
+			type="Empty";
+			fillName="Border";
+			a=10;
+			b=10;
+			drawBorder=1;
+		};
+	};
+	class Sensors
+	{
+		items=278;
+		class Item0
+		{
+			position[]={10621.21,15.485503,12292.245};
+			a=220;
+			b=100;
+			angle=45;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_therisa";
+			class Effects
+			{
+			};
+		};
+		class Item1
+		{
+			position[]={11012.4,25.925625,13418.29};
+			a=130;
+			b=95;
+			angle=33;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_poliakko";
+			class Effects
+			{
+			};
+		};
+		class Item2
+		{
+			position[]={12570.37,16.505379,14389.563};
+			a=200;
+			b=120;
+			angle=65;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_neochori";
+			class Effects
+			{
+			};
+		};
+		class Item3
+		{
+			position[]={12951.801,27.485264,15030.014};
+			a=160;
+			b=140;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_stavros";
+			class Effects
+			{
+			};
+		};
+		class Item4
+		{
+			position[]={12372.837,23.921316,15661.713};
+			a=100;
+			b=200;
+			angle=-8;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_lakka";
+			class Effects
+			{
+			};
+		};
+		class Item5
+		{
+			position[]={9362.5313,121.99397,15911.052};
+			a=110;
+			b=230;
+			angle=65;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_agiosDionysios";
+			class Effects
+			{
+			};
+		};
+		class Item6
+		{
+			position[]={7168.7324,125.18462,16459.426};
+			a=115;
+			b=80;
+			angle=40;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_kore";
+			class Effects
+			{
+			};
+		};
+		class Item7
+		{
+			position[]={4882.5771,75.264,16183.733};
+			a=135;
+			b=90;
+			angle=10;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_negades";
+			class Effects
+			{
+			};
+		};
+		class Item8
+		{
+			position[]={4157.9111,51.348549,11727.033};
+			a=105;
+			b=130;
+			angle=60;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_neri";
+			class Effects
+			{
+			};
+		};
+		class Item9
+		{
+			position[]={5086.7412,50.496891,11261.557};
+			a=200;
+			b=110;
+			angle=80;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_panochori";
+			class Effects
+			{
+			};
+		};
+		class Item10
+		{
+			position[]={8609.1338,180.78522,18262.658};
+			a=160;
+			b=130;
+			angle=60;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_syrta";
+			class Effects
+			{
+			};
+		};
+		class Item11
+		{
+			position[]={10331.527,126.92207,19065.492};
+			a=85;
+			b=95;
+			angle=25;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_galati";
+			class Effects
+			{
+			};
+		};
+		class Item12
+		{
+			position[]={9440.8389,124.39645,20235.055};
+			a=100;
+			b=105;
+			angle=70;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_abdera";
+			class Effects
+			{
+			};
+		};
+		class Item13
+		{
+			position[]={14492.255,21.964211,17633.354};
+			a=130;
+			b=100;
+			angle=25;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_gravia";
+			class Effects
+			{
+			};
+		};
+		class Item14
+		{
+			position[]={16638.477,25.691765,16137.504};
+			a=95;
+			b=190;
+			angle=35;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_anthrakia";
+			class Effects
+			{
+			};
+		};
+		class Item15
+		{
+			position[]={18100.834,24.221712,15229.271};
+			a=130;
+			b=190;
+			angle=75;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_charkia";
+			class Effects
+			{
+			};
+		};
+		class Item16
+		{
+			position[]={19410.074,39.030895,13248.381};
+			a=120;
+			b=120;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_dorida";
+			class Effects
+			{
+			};
+		};
+		class Item17
+		{
+			position[]={20803.719,37.723881,6718.4951};
+			a=140;
+			b=125;
+			angle=85;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_selakano";
+			class Effects
+			{
+			};
+		};
+		class Item18
+		{
+			position[]={21687.051,18.866404,7585.7593};
+			a=150;
+			b=85;
+			angle=35;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_feres";
+			class Effects
+			{
+			};
+		};
+		class Item19
+		{
+			position[]={20518.922,36.471054,8894.2881};
+			a=135;
+			b=85;
+			angle=75;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_panagia";
+			class Effects
+			{
+			};
+		};
+		class Item20
+		{
+			position[]={20212.559,50.275616,11673.92};
+			a=130;
+			b=100;
+			angle=35;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_chalkeia";
+			class Effects
+			{
+			};
+		};
+		class Item21
+		{
+			position[]={21361.752,19.861107,16358.06};
+			a=90;
+			b=210;
+			angle=75;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_kalochori";
+			class Effects
+			{
+			};
+		};
+		class Item22
+		{
+			position[]={25693.752,20.592741,21379.117};
+			a=130;
+			b=130;
+			angle=48;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_sofia";
+			class Effects
+			{
+			};
+		};
+		class Item23
+		{
+			position[]={26977.814,20.156336,23206.799};
+			a=90;
+			b=217;
+			angle=48;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_molos";
+			class Effects
+			{
+			};
+		};
+		class Item24
+		{
+			position[]={16367.474,24.559704,17248.857};
+			a=230;
+			b=90;
+			angle=20;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_telos";
+			class Effects
+			{
+			};
+		};
+		class Item25
+		{
+			position[]={12807.992,45.363338,19668.645};
+			a=110;
+			b=47;
+			angle=58;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_ifestiona";
+			class Effects
+			{
+			};
+		};
+		class Item26
+		{
+			position[]={14600.157,46.801487,20791.684};
+			b=75;
+			angle=2;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_frini";
+			class Effects
+			{
+			};
+		};
+		class Item27
+		{
+			position[]={14602.348,22.44799,16790.26};
+			a=25;
+			b=55;
+			angle=45;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_altisInternationalAirport";
+			class Effects
+			{
+			};
+		};
+		class Item28
+		{
+			position[]={14013.961,26.424759,18721.346};
+			a=120;
+			b=135;
+			angle=26;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_athira";
+			class Effects
+			{
+			};
+		};
+		class Item29
+		{
+			position[]={20928.217,45.320141,16975.453};
+			a=130;
+			b=200;
+			angle=15;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_paros";
+			class Effects
+			{
+			};
+		};
+		class Item30
+		{
+			position[]={16843.813,24,12663.877};
+			a=170;
+			b=250;
+			angle=20;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_pyrgos";
+			class Effects
+			{
+			};
+		};
+		class Item31
+		{
+			position[]={20274.176,19.578739,19203.746};
+			a=45;
+			angle=15;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_ifestia";
+			class Effects
+			{
+			};
+		};
+		class Item32
+		{
+			position[]={23252.795,19.577841,19941.863};
+			a=40;
+			b=25;
+			angle=40;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_ioannina";
+			class Effects
+			{
+			};
+		};
+		class Item33
+		{
+			position[]={17850.947,2.1554489,18110.453};
+			a=45;
+			b=60;
+			angle=60;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_kalithea";
+			class Effects
+			{
+			};
+		};
+		class Item34
+		{
+			position[]={11726.599,12.792737,13735.897};
+			a=45;
+			b=60;
+			angle=35;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_katalaki";
+			class Effects
+			{
+			};
+		};
+		class Item35
+		{
+			position[]={11133.643,41.859798,14570.089};
+			a=110;
+			b=85;
+			angle=45;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_alikampos";
+			class Effects
+			{
+			};
+		};
+		class Item36
+		{
+			position[]={9043.8564,24.847635,12055.943};
+			a=167;
+			b=95;
+			angle=14;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_zaros";
+			class Effects
+			{
+			};
+		};
+		class Item37
+		{
+			position[]={10449.056,84.597939,17246.943};
+			a=45;
+			b=80;
+			angle=45;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_orino";
+			class Effects
+			{
+			};
+		};
+		class Item38
+		{
+			position[]={4587.1807,299.47162,21412.258};
+			a=120;
+			b=120;
+			angle=45;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_oreokastro";
+			class Effects
+			{
+			};
+		};
+		class Item39
+		{
+			position[]={21493.559,12.249925,10844.804};
+			a=35;
+			b=95;
+			angle=38;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_aktinarki";
+			class Effects
+			{
+			};
+		};
+		class Item40
+		{
+			position[]={18481.254,24.556347,14279.448};
+			a=150;
+			b=70;
+			angle=20;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_mine";
+			class Effects
+			{
+			};
+		};
+		class Item41
+		{
+			position[]={12647.289,34.329906,16362.147};
+			a=125;
+			b=60;
+			angle=35;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_lakkaIndustrial";
+			class Effects
+			{
+			};
+		};
+		class Item42
+		{
+			position[]={20944.158,13.990474,19257.395};
+			a=90;
+			b=100;
+			angle=13;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_ifestiaBase";
+			class Effects
+			{
+			};
+		};
+		class Item43
+		{
+			position[]={18805.107,31.005444,16600.25};
+			a=105;
+			b=110;
+			angle=55;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_rodopoli";
+			class Effects
+			{
+			};
+		};
+		class Item44
+		{
+			position[]={6219.9751,43,16251.13};
+			a=175;
+			b=56;
+			angle=-2;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_koreIndustrial";
+			class Effects
+			{
+			};
+		};
+		class Item45
+		{
+			position[]={3735.8394,7.0861182,11517.078};
+			a=210;
+			b=110;
+			angle=52;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_neriBeach";
+			class Effects
+			{
+			};
+		};
+		class Item46
+		{
+			position[]={4232.1191,18.113785,15051.334};
+			a=78;
+			b=48;
+			angle=1;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_magosPowerPlant";
+			class Effects
+			{
+			};
+		};
+		class Item47
+		{
+			position[]={3809.7561,15.835147,13682.746};
+			a=180;
+			b=260;
+			angle=55;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_aggelochori";
+			class Effects
+			{
+			};
+		};
+		class Item48
+		{
+			position[]={3550.7429,7.8768039,13066.098};
+			a=220;
+			b=200;
+			angle=30;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_kavala";
+			class Effects
+			{
+			};
+		};
+		class Item49
+		{
+			position[]={18308.816,47.471745,15532.269};
+			a=140;
+			b=60;
+			angle=1.5;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_charkiaDepot";
+			class Effects
+			{
+			};
+		};
+		class Item50
+		{
+			position[]={11383.506,21.258652,14228.818};
+			a=70;
+			b=120;
+			angle=65;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_alikamposConstructionYard";
+			class Effects
+			{
+			};
+		};
+		class Item51
+		{
+			position[]={4203.522,17.884903,15030.999};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""SportGround_fence"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item52
+		{
+			position[]={4215.8101,18.008455,15033.91};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""SportGround_fence"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item53
+		{
+			position[]={4188.4131,17.395811,15030.461};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""SportGround_fence"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item54
+		{
+			position[]={4216.7373,18.22426,15071.514};
+			a=6;
+			b=6;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""SportGround_fence"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item55
+		{
+			position[]={15376.656,4.2600002,16042.783};
+			a=41;
+			b=111;
+			angle=-17;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_altisInternationalContainerTerminal";
+			class Effects
+			{
+			};
+		};
+		class Item56
+		{
+			position[]={26914.004,23.534267,24309.941};
+			a=45;
+			b=48;
+			angle=35;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_molosResort";
+			class Effects
+			{
+			};
+		};
+		class Item57
+		{
+			position[]={16010.817,17.255653,16231.677};
+			a=100;
+			b=30;
+			angle=15;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_anthrakiaResort";
+			class Effects
+			{
+			};
+		};
+		class Item58
+		{
+			position[]={3384.717,27.180292,14256.163};
+			a=90;
+			b=45;
+			angle=45;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_aggelochoriResort";
+			class Effects
+			{
+			};
+		};
+		class Item59
+		{
+			position[]={3847.2871,34.961426,12415.454};
+			a=32;
+			b=70;
+			angle=50;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_kavalaDepot";
+			class Effects
+			{
+			};
+		};
+		class Item60
+		{
+			position[]={21893.434,22.657871,21002.309};
+			a=110;
+			b=190;
+			angle=60;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_irakliaValley";
+			class Effects
+			{
+			};
+		};
+		class Item61
+		{
+			position[]={16595.613,11.014971,12751.118};
+			a=130;
+			b=200;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_pyrgosWest";
+			class Effects
+			{
+			};
+		};
+		class Item62
+		{
+			position[]={17428.986,14.442988,13161.095};
+			a=103;
+			b=74;
+			angle=47;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_pyrgosBase";
+			class Effects
+			{
+			};
+		};
+		class Item63
+		{
+			position[]={21800.021,5.6441212,6238.8066};
+			a=40;
+			b=130;
+			angle=20;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_maziBeach";
+			class Effects
+			{
+			};
+		};
+		class Item64
+		{
+			position[]={8233.916,14.216658,10881.19};
+			a=35;
+			b=60;
+			angle=-20;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_edessaPowerPlant";
+			class Effects
+			{
+			};
+		};
+		class Item65
+		{
+			position[]={10793.92,4.8236446,10878.398};
+			a=16;
+			b=28;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_drimea";
+			class Effects
+			{
+			};
+		};
+		class Item66
+		{
+			position[]={7900.0161,114.92663,16163.604};
+			a=33;
+			b=72;
+			angle=48;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_koreDepot";
+			class Effects
+			{
+			};
+		};
+		class Item67
+		{
+			position[]={8941.9541,69.629921,15515.188};
+			b=18;
+			angle=21;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_agiosDionysiosJunkyard";
+			class Effects
+			{
+			};
+		};
+		class Item68
+		{
+			position[]={11130.101,28.923351,12248.876};
+			a=32;
+			b=57;
+			angle=27;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_therisaConstructionYard";
+			class Effects
+			{
+			};
+		};
+		class Item69
+		{
+			position[]={3583.342,17.129629,10239.968};
+			a=80;
+			b=60;
+			angle=80;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_athanos";
+			class Effects
+			{
+			};
+		};
+		class Item70
+		{
+			position[]={9734.2705,2.1908791,22311.605};
+			a=70;
+			angle=10;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_kryaNera";
+			class Effects
+			{
+			};
+		};
+		class Item71
+		{
+			position[]={17530.238,10.720762,19012.775};
+			a=72;
+			angle=60;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_kalitheaHarbor";
+			class Effects
+			{
+			};
+		};
+		class Item72
+		{
+			position[]={18103.193,19.20393,19187.365};
+			a=55;
+			b=115;
+			angle=85;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_capZefyris";
+			class Effects
+			{
+			};
+		};
+		class Item73
+		{
+			position[]={20226.869,47.021549,8914.8896};
+			a=31;
+			b=43;
+			angle=47;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_panagiaEstate";
+			class Effects
+			{
+			};
+		};
+		class Item74
+		{
+			position[]={7390.7148,55.767597,15396.8};
+			b=75;
+			angle=3;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_topolia";
+			class Effects
+			{
+			};
+		};
+		class Item75
+		{
+			position[]={12353.663,4.3905234,14228.056};
+			a=85;
+			b=70;
+			angle=67;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_neochoriWest";
+			class Effects
+			{
+			};
+		};
+		class Item76
+		{
+			position[]={6368.8828,35.248955,14889.967};
+			a=28;
+			b=27;
+			angle=26;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_topoliaDepot";
+			class Effects
+			{
+			};
+		};
+		class Item77
+		{
+			position[]={6509.9019,35.21994,15305.838};
+			a=21;
+			b=29;
+			angle=57;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_topoliaConstructionYard";
+			class Effects
+			{
+			};
+		};
+		class Item78
+		{
+			position[]={5483.8384,23.793123,14987.388};
+			a=60;
+			b=80;
+			angle=41;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_unfinishedStadium";
+			class Effects
+			{
+			};
+		};
+		class Item79
+		{
+			position[]={5524.8262,25.833635,15061.734};
+			a=45;
+			b=10;
+			angle=32;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_unfinishedStadium_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item80
+		{
+			position[]={5398.8379,29.516983,14976.602};
+			a=15;
+			b=35;
+			angle=10;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_unfinishedStadium_bad2";
+			class Effects
+			{
+			};
+		};
+		class Item81
+		{
+			position[]={3838.144,5.12957,11135.807};
+			a=70;
+			b=105;
+			angle=10;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_neriResort";
+			class Effects
+			{
+			};
+		};
+		class Item82
+		{
+			position[]={3897.9958,22.63274,11065.151};
+			b=30;
+			angle=63;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_neriResort_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item83
+		{
+			position[]={3821.9883,16.748312,11021.801};
+			a=70;
+			b=20;
+			angle=1.7;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_neriResort_bad2";
+			class Effects
+			{
+			};
+		};
+		class Item84
+		{
+			position[]={3871.8164,12.106552,11122.793};
+			a=20;
+			b=25;
+			angle=70;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_neriResort_bad3";
+			class Effects
+			{
+			};
+		};
+		class Item85
+		{
+			position[]={3851.1411,8.9309978,11111.486};
+			a=15;
+			b=5;
+			angle=82;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_neriResort_bad4";
+			class Effects
+			{
+			};
+		};
+		class Item86
+		{
+			position[]={3914.1619,18.18692,11133.346};
+			a=20;
+			angle=35;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_neriResort_bad5";
+			class Effects
+			{
+			};
+		};
+		class Item87
+		{
+			position[]={3905.0847,9.5001163,11225.029};
+			a=40;
+			b=20;
+			angle=46;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_neriResort_bad6";
+			class Effects
+			{
+			};
+		};
+		class Item88
+		{
+			position[]={3810.9036,4.7205572,11253.648};
+			a=17;
+			b=17;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_neriResort_bad7";
+			class Effects
+			{
+			};
+		};
+		class Item89
+		{
+			position[]={3780.5693,2.2471423,11203.594};
+			a=55;
+			b=20;
+			angle=88;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_neriResort_bad8";
+			class Effects
+			{
+			};
+		};
+		class Item90
+		{
+			position[]={3763.1987,5.1766744,11111.632};
+			a=15;
+			angle=27;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_neriResort_bad9";
+			class Effects
+			{
+			};
+		};
+		class Item91
+		{
+			position[]={12692.521,30.471527,14755.079};
+			a=55;
+			b=30;
+			angle=70;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_stavrosDepot";
+			class Effects
+			{
+			};
+		};
+		class Item92
+		{
+			position[]={12720.973,31.969961,14773.693};
+			a=60;
+			b=20;
+			angle=52;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_stavrosDepot_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item93
+		{
+			position[]={12649.408,34.28582,14793.94};
+			a=6;
+			b=15;
+			angle=20;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_stavrosDepot_bad2";
+			class Effects
+			{
+			};
+		};
+		class Item94
+		{
+			position[]={14318.235,36.831554,18929.928};
+			a=78;
+			b=82;
+			angle=49.5;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_athiraIndustrial";
+			class Effects
+			{
+			};
+		};
+		class Item95
+		{
+			position[]={14330.678,36.267097,18836.326};
+			a=20;
+			b=60;
+			angle=67;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_athiraIndustrial_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item96
+		{
+			position[]={14259.375,35.404362,18987.84};
+			a=10;
+			b=95;
+			angle=46;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_athiraIndustrial_bad2";
+			class Effects
+			{
+			};
+		};
+		class Item97
+		{
+			position[]={14233.086,35.739685,18907.432};
+			a=70;
+			b=30;
+			angle=85;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_athiraIndustrial_bad3";
+			class Effects
+			{
+			};
+		};
+		class Item98
+		{
+			position[]={16041.08,13.648921,17000.607};
+			a=143;
+			b=170;
+			angle=29.200001;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_telosBase";
+			class Effects
+			{
+			};
+		};
+		class Item99
+		{
+			position[]={16169.101,14.182752,17121.381};
+			a=55;
+			b=15;
+			angle=17;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_telosBase_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item100
+		{
+			position[]={16240.783,13.311997,17080.07};
+			a=30;
+			b=10;
+			angle=60;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_telosBase_bad2";
+			class Effects
+			{
+			};
+		};
+		class Item101
+		{
+			position[]={16048.987,14.512734,16805.26};
+			a=60;
+			b=25;
+			angle=3;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_telosBase_bad3";
+			class Effects
+			{
+			};
+		};
+		class Item102
+		{
+			position[]={15978.424,14.487031,16846.684};
+			a=55;
+			b=15;
+			angle=82;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_telosBase_bad4";
+			class Effects
+			{
+			};
+		};
+		class Item103
+		{
+			position[]={15956.044,14.091677,16917.211};
+			a=30;
+			b=15;
+			angle=53;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_telosBase_bad5";
+			class Effects
+			{
+			};
+		};
+		class Item104
+		{
+			position[]={15889.573,14.189201,16937.381};
+			a=110;
+			b=65;
+			angle=68;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_telosBase_bad6";
+			class Effects
+			{
+			};
+		};
+		class Item105
+		{
+			position[]={15971.636,16.701193,17156.834};
+			b=110;
+			angle=58;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_telosBase_bad7";
+			class Effects
+			{
+			};
+		};
+		class Item106
+		{
+			position[]={16092.153,13.955546,17159.23};
+			a=55;
+			b=20;
+			angle=4;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_telosBase_bad8";
+			class Effects
+			{
+			};
+		};
+		class Item107
+		{
+			position[]={4506.3647,43.578053,13927.915};
+			a=30;
+			b=19;
+			angle=65;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_aggelochoriDepot";
+			class Effects
+			{
+			};
+		};
+		class Item108
+		{
+			position[]={4591.8164,48.409061,13909.306};
+			a=31;
+			b=38;
+			angle=45;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_aggelochoriConstructionYard";
+			class Effects
+			{
+			};
+		};
+		class Item109
+		{
+			position[]={4553.8276,47.240402,13895.568};
+			a=25;
+			b=10;
+			angle=70;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_aggelochoriConstructionYard_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item110
+		{
+			position[]={4597.7646,49.494076,13950.564};
+			a=15;
+			b=25;
+			angle=89;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_aggelochoriConstructionYard_bad2";
+			class Effects
+			{
+			};
+		};
+		class Item111
+		{
+			position[]={21036.678,17.141201,19261.328};
+			a=20;
+			b=90;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_ifestiaBase_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item112
+		{
+			position[]={20969.904,15.468238,19348.65};
+			a=70;
+			b=20;
+			angle=33;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_ifestiaBase_bad2";
+			class Effects
+			{
+			};
+		};
+		class Item113
+		{
+			position[]={20867.135,13.309956,19325.785};
+			a=20;
+			b=65;
+			angle=31;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_ifestiaBase_bad3";
+			class Effects
+			{
+			};
+		};
+		class Item114
+		{
+			position[]={9550.3242,152.9633,20210.311};
+			a=40;
+			b=80;
+			angle=15;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_abdera_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item115
+		{
+			position[]={9379.4736,91.822769,20154.738};
+			b=30;
+			angle=65;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_abdera_bad2";
+			class Effects
+			{
+			};
+		};
+		class Item116
+		{
+			position[]={9155.958,130.04033,15922.292};
+			a=25;
+			angle=75;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_agiosDionysios_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item117
+		{
+			position[]={9498.8379,127.38421,15851.243};
+			a=30;
+			b=130;
+			angle=75;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_agiosDionysios_bad2";
+			class Effects
+			{
+			};
+		};
+		class Item118
+		{
+			position[]={21423.314,8.9422255,10797.719};
+			a=16;
+			b=30;
+			angle=4;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_aktinarki_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item119
+		{
+			position[]={21496.244,13.595947,10898.413};
+			a=10;
+			b=55;
+			angle=42.799999;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_aktinarki_bad2";
+			class Effects
+			{
+			};
+		};
+		class Item120
+		{
+			position[]={21574.008,11.317312,10896.263};
+			a=7;
+			b=7;
+			angle=55;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_aktinarki_bad3";
+			class Effects
+			{
+			};
+		};
+		class Item121
+		{
+			position[]={18300.852,22.170155,15156.753};
+			a=30;
+			b=30;
+			angle=75;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_charkia_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item122
+		{
+			position[]={18196.896,44.32106,15463.034};
+			a=60;
+			b=40;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_charkiaDepot_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item123
+		{
+			position[]={18157.867,48.812237,15602.105};
+			a=150;
+			b=40;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_charkiaDepot_bad2";
+			class Effects
+			{
+			};
+		};
+		class Item124
+		{
+			position[]={18427.875,48.622189,15484.11};
+			a=30;
+			b=40;
+			angle=10;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_charkiaDepot_bad3";
+			class Effects
+			{
+			};
+		};
+		class Item125
+		{
+			position[]={18447.111,50.222393,15526.361};
+			a=20;
+			b=25;
+			angle=48;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_charkiaDepot_bad4";
+			class Effects
+			{
+			};
+		};
+		class Item126
+		{
+			position[]={10799.542,5.1033826,10861.245};
+			a=45;
+			b=45;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Net_Fence"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item127
+		{
+			position[]={14314.682,18.37879,17419.932};
+			a=14;
+			b=33;
+			angle=65;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_graviaShantyTown";
+			class Effects
+			{
+			};
+		};
+		class Item128
+		{
+			position[]={14332.593,17.998386,17441.41};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Wall_Tin_4_2"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item129
+		{
+			position[]={20231.703,17.194996,19219.455};
+			a=30;
+			b=25;
+			angle=45;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_ifestia_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item130
+		{
+			position[]={20254.371,17.88748,19169.041};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_4m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item131
+		{
+			position[]={21333.234,4.5781612,10479.373};
+			a=35;
+			b=90;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_surfClub";
+			class Effects
+			{
+			};
+		};
+		class Item132
+		{
+			position[]={23219.166,13.554406,19951.959};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item133
+		{
+			position[]={23234.891,13.224717,19935.533};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item134
+		{
+			position[]={23288.619,12.86946,19929.68};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_4m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item135
+		{
+			position[]={23245.625,13.435151,19952.207};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item136
+		{
+			position[]={11760.92,12.970856,13782.682};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""City_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item137
+		{
+			position[]={11730.15,13.179679,13793.017};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""City_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item138
+		{
+			position[]={11707.619,13.36936,13769.661};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""City_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item139
+		{
+			position[]={11766.395,13.162221,13752.473};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item140
+		{
+			position[]={11726.838,12.714859,13698.917};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item141
+		{
+			position[]={11752.468,12.690225,13724.194};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""City_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item142
+		{
+			position[]={11681.507,13.361672,13737.97};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item143
+		{
+			position[]={11685.98,13.249763,13696.506};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item144
+		{
+			position[]={3853.1941,34.428082,12467.176};
+			a=10;
+			b=40;
+			angle=60;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_kavalaDepot_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item145
+		{
+			position[]={3902.4648,34.84568,12417.518};
+			a=10;
+			b=40;
+			angle=38.5;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_kavalaDepot_bad2";
+			class Effects
+			{
+			};
+		};
+		class Item146
+		{
+			position[]={7193.6802,114.48311,16423.158};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item147
+		{
+			position[]={7174.3169,120.4015,16447.504};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item148
+		{
+			position[]={7168.6284,125.55317,16485.021};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item149
+		{
+			position[]={7158.48,132.50876,16522.295};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""City_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item150
+		{
+			position[]={7227.7778,109.31709,16384.637};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item151
+		{
+			position[]={7223.4443,128.14519,16469.309};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""City_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item152
+		{
+			position[]={7256.3652,121.56303,16432.018};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""City_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item153
+		{
+			position[]={7089.8003,109.45464,16425.393};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""City_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item154
+		{
+			position[]={7082.2188,118.02379,16469.844};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item155
+		{
+			position[]={7129.1841,116.74667,16459.775};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item156
+		{
+			position[]={7873.4375,116.02379,16180.893};
+			a=10;
+			b=41;
+			angle=48;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_koreDepot_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item157
+		{
+			position[]={7957.9458,121.19296,16189.636};
+			a=15;
+			b=15;
+			angle=48;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_koreDepot_bad2";
+			class Effects
+			{
+			};
+		};
+		class Item158
+		{
+			position[]={7882.7656,114.15578,16125.793};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""City2_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item159
+		{
+			position[]={7874.6807,113.58054,16102.137};
+			a=15;
+			b=15;
+			angle=48;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_koreDepot_bad3";
+			class Effects
+			{
+			};
+		};
+		class Item160
+		{
+			position[]={6358.7236,52.901268,16305.589};
+			a=55;
+			b=25;
+			angle=30;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_koreIndustrial_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item161
+		{
+			position[]={6078.1357,45.545311,16296.248};
+			a=35;
+			b=15;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_koreIndustrial_bad2";
+			class Effects
+			{
+			};
+		};
+		class Item162
+		{
+			position[]={6119.3721,43.752495,16302.616};
+			a=10;
+			b=20;
+			angle=55;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_koreIndustrial_bad3";
+			class Effects
+			{
+			};
+		};
+		class Item163
+		{
+			position[]={6376.6294,43.288326,16195.298};
+			a=10;
+			b=30;
+			angle=80;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_koreIndustrial_bad4";
+			class Effects
+			{
+			};
+		};
+		class Item164
+		{
+			position[]={9720.4141,4.4486194,22271.867};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item165
+		{
+			position[]={12448.171,20.767208,15686.717};
+			b=28;
+			angle=25;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_lakka_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item166
+		{
+			position[]={12317.645,24.776031,15471.219};
+			a=40;
+			b=40;
+			angle=-15;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_lakka_bad2";
+			class Effects
+			{
+			};
+		};
+		class Item167
+		{
+			position[]={12485.416,27.387514,15491.008};
+			a=15;
+			b=25;
+			angle=-3;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_lakka_bad3";
+			class Effects
+			{
+			};
+		};
+		class Item168
+		{
+			position[]={12281.624,21.00856,15818.723};
+			b=35;
+			angle=-5;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_lakka_bad4";
+			class Effects
+			{
+			};
+		};
+		class Item169
+		{
+			position[]={4153.3706,17.782209,15084.786};
+			a=5;
+			b=20;
+			angle=13;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_magosPowerPlant_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item170
+		{
+			position[]={4300.3594,18.890064,15007.365};
+			a=15;
+			b=30;
+			angle=70;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_magosPowerPlant_bad2";
+			class Effects
+			{
+			};
+		};
+		class Item171
+		{
+			position[]={4277.5923,23.076244,15097.721};
+			b=25;
+			angle=35;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_magosPowerPlant_bad3";
+			class Effects
+			{
+			};
+		};
+		class Item172
+		{
+			position[]={4306.936,20.494745,15048.282};
+			a=20;
+			b=10;
+			angle=57;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_magosPowerPlant_bad4";
+			class Effects
+			{
+			};
+		};
+		class Item173
+		{
+			position[]={4807.5918,53.088303,16273.743};
+			b=30;
+			angle=10;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_negades_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item174
+		{
+			position[]={5009.5688,50.31477,16246.237};
+			a=70;
+			b=30;
+			angle=50;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_negades_bad2";
+			class Effects
+			{
+			};
+		};
+		class Item175
+		{
+			position[]={4802.7534,102.70361,16081.326};
+			a=30;
+			b=60;
+			angle=65;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_negades_bad3";
+			class Effects
+			{
+			};
+		};
+		class Item176
+		{
+			position[]={4557.5171,262.82419,15409.56};
+			a=60;
+			b=60;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Mil_WiredFence"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item177
+		{
+			position[]={4556.0444,263.18863,15403.156};
+			b=40;
+			angle=5;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_magosSummit";
+			class Effects
+			{
+			};
+		};
+		class Item178
+		{
+			position[]={23599.404,94.584358,21104.377};
+			a=190;
+			b=95;
+			angle=20;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_nidasosBase";
+			class Effects
+			{
+			};
+		};
+		class Item179
+		{
+			position[]={4978.1719,62.80468,16196.485};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item180
+		{
+			position[]={4954.3286,67.58136,16199.207};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item181
+		{
+			position[]={4904.209,71.110741,16194.863};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item182
+		{
+			position[]={4888.6626,69.769264,16207.514};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item183
+		{
+			position[]={4888.085,74.938934,16183.371};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item184
+		{
+			position[]={4948.4194,51.748119,16237.307};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item185
+		{
+			position[]={4909.1118,56.836025,16237.307};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item186
+		{
+			position[]={4980.4214,66.607185,16183.107};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item187
+		{
+			position[]={4975.0781,55.410027,16219.255};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item188
+		{
+			position[]={12395.463,3.0939183,14182.695};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""City_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item189
+		{
+			position[]={12413.88,3.3824413,14190.319};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""City_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item190
+		{
+			position[]={12368.104,4.819663,14231.345};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item191
+		{
+			position[]={12305.311,6.9994969,14254.36};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""City_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item192
+		{
+			position[]={12316.631,4.8424854,14160.298};
+			a=40;
+			b=15;
+			angle=67;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_neochoriWest_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item193
+		{
+			position[]={4161.7129,50.848663,11837.49};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_4m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item194
+		{
+			position[]={4135.1177,50.145287,11822.847};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_4m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item195
+		{
+			position[]={4311.5146,72.81031,11732.368};
+			a=80;
+			b=80;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_neri_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item196
+		{
+			position[]={4114.665,34.484699,11615.578};
+			a=65;
+			b=65;
+			angle=50;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_neri_bad2";
+			class Effects
+			{
+			};
+		};
+		class Item197
+		{
+			position[]={4019.5637,40.703232,11754.9};
+			a=20;
+			b=35;
+			angle=60;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_neri_bad3";
+			class Effects
+			{
+			};
+		};
+		class Item198
+		{
+			position[]={4187.2227,54.077042,11717.867};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""City_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item199
+		{
+			position[]={4058.115,42.373703,11679.112};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""City2_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item200
+		{
+			position[]={4033.9692,42.347458,11685.567};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""City2_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item201
+		{
+			position[]={4079.0825,45.944588,11696.855};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""City2_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item202
+		{
+			position[]={3861.5056,4.5631189,11219.266};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""SportGround_fence"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item203
+		{
+			position[]={3836.4883,4.4079318,11196.362};
+			a=4;
+			b=4;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""SportGround_fence"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item204
+		{
+			position[]={3818.8386,4.5510464,11211.156};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""SportGround_fence"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item205
+		{
+			position[]={23516.721,91.955521,21126.043};
+			a=60;
+			b=20;
+			angle=30;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_nidasosBase_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item206
+		{
+			position[]={23659.66,81.459328,21169.586};
+			a=90;
+			b=40;
+			angle=10;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_nidasosBase_bad2";
+			class Effects
+			{
+			};
+		};
+		class Item207
+		{
+			position[]={23561.088,86.345718,21019.828};
+			a=100;
+			b=30;
+			angle=15;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_nidasosBase_bad3";
+			class Effects
+			{
+			};
+		};
+		class Item208
+		{
+			position[]={23704.615,97.351517,21058.047};
+			a=40;
+			b=30;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_nidasosBase_bad4";
+			class Effects
+			{
+			};
+		};
+		class Item209
+		{
+			position[]={4719.5293,263.28189,21466.68};
+			a=100;
+			b=70;
+			angle=30;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_oreokastro_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item210
+		{
+			position[]={4623.3354,291.72763,21307.223};
+			a=15;
+			b=80;
+			angle=70;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_oreokastro_bad2";
+			class Effects
+			{
+			};
+		};
+		class Item211
+		{
+			position[]={4486.1611,296.20404,21448.299};
+			a=30;
+			b=70;
+			angle=20;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_oreokastro_bad3";
+			class Effects
+			{
+			};
+		};
+		class Item212
+		{
+			position[]={4611.9917,298.46008,21506.041};
+			a=30;
+			b=30;
+			angle=5;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_oreokastro_bad4";
+			class Effects
+			{
+			};
+		};
+		class Item213
+		{
+			position[]={10471.226,86.165916,17266.371};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item214
+		{
+			position[]={10476.962,87.441185,17291.57};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item215
+		{
+			position[]={10450.443,84.402054,17267.154};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item216
+		{
+			position[]={10426.125,81.010094,17189.787};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_4m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item217
+		{
+			position[]={10393.898,81.617744,17222.391};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_4m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item218
+		{
+			position[]={10403.971,82.168152,17234.35};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item219
+		{
+			position[]={10422.642,84.135994,17259.648};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item220
+		{
+			position[]={17402.236,13.175904,13240.428};
+			a=30;
+			b=30;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""WiredFence_10m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item221
+		{
+			position[]={17458.832,14.065324,13154.954};
+			b=8;
+			angle=47;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_pyrgosBase_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item222
+		{
+			position[]={17404.523,14.283328,13179.544};
+			a=25;
+			b=15;
+			angle=47;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_pyrgosBase_bad2";
+			class Effects
+			{
+			};
+		};
+		class Item223
+		{
+			position[]={20999.496,30.108196,6646.8076};
+			a=120;
+			b=120;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_selakano_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item224
+		{
+			position[]={20827.672,40.315628,6642.8311};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item225
+		{
+			position[]={20831.244,44.045563,6601.1621};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item226
+		{
+			position[]={20749.111,36.903175,6844.4287};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""City_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item227
+		{
+			position[]={20774.121,35.234306,6843.916};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""City_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item228
+		{
+			position[]={20781.658,35.117439,6832.8652};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""City_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item229
+		{
+			position[]={12985.477,26.686502,15102.313};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item230
+		{
+			position[]={12887.087,25.60232,14906.018};
+			a=100;
+			b=60;
+			angle=75;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_stavros_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item231
+		{
+			position[]={12694.201,29.884386,14702.005};
+			a=8;
+			b=8;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Wall_Tin_4_2"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item232
+		{
+			position[]={12725.121,29.723711,14730.871};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Wall_Tin_4_2"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item233
+		{
+			position[]={12667.843,30.770016,14742.789};
+			a=9;
+			b=9;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Wall_Tin_4_2"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item234
+		{
+			position[]={8460.2676,167.72752,18370.803};
+			a=100;
+			b=90;
+			angle=5;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_syrta_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item235
+		{
+			position[]={8641.0352,171.99591,18440.18};
+			a=80;
+			b=30;
+			angle=10;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_syrta_bad2";
+			class Effects
+			{
+			};
+		};
+		class Item236
+		{
+			position[]={8521.5723,178.16029,18246.303};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item237
+		{
+			position[]={8485.9971,178.82185,18227.779};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item238
+		{
+			position[]={8574.7432,173.39958,18345.904};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item239
+		{
+			position[]={10593.189,15.839185,12449.992};
+			a=130;
+			angle=20;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_therisa_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item240
+		{
+			position[]={10465.581,14.126876,12313.726};
+			a=100;
+			b=20;
+			angle=37;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_therisa_bad2";
+			class Effects
+			{
+			};
+		};
+		class Item241
+		{
+			position[]={10697.519,22.637772,12095.058};
+			a=30;
+			b=20;
+			angle=45;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_therisa_bad3";
+			class Effects
+			{
+			};
+		};
+		class Item242
+		{
+			position[]={7370.7788,54.356392,15407.228};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""City2_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item243
+		{
+			position[]={7386.5562,56.389488,15388.416};
+			a=5;
+			b=5;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""City2_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item244
+		{
+			position[]={7390.3096,58.939342,15376.502};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Pipe_fence_4m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item245
+		{
+			position[]={7378.1147,55.008915,15405.879};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Pipe_fence_4m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item246
+		{
+			position[]={7374.814,58.465347,15376.638};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Pipe_fence_4m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item247
+		{
+			position[]={7417.4146,56.725372,15384.982};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""City2_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item248
+		{
+			position[]={6516.2485,34.534592,15328.425};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Wall_Tin_4_2"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item249
+		{
+			position[]={6494.7036,35.487968,15282.282};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Wall_Tin_4_2"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item250
+		{
+			position[]={9201.457,15.80233,12054.568};
+			a=25;
+			b=22;
+			angle=25;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_zaros_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item251
+		{
+			position[]={3866.5908,18.980726,17656.033};
+			a=235;
+			b=150;
+			angle=60;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_agiosKonstantinos";
+			class Effects
+			{
+			};
+		};
+		class Item252
+		{
+			position[]={22475.477,18.315239,20013.195};
+			a=120;
+			b=65;
+			angle=10;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_agiosTheodoros";
+			class Effects
+			{
+			};
+		};
+		class Item253
+		{
+			position[]={22376.434,14.940628,20010.104};
+			a=15;
+			b=15;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Slums01_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item254
+		{
+			position[]={22482.529,19.284815,20058.693};
+			a=20;
+			b=40;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_agiosTheodoros_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item255
+		{
+			position[]={22448.926,16.853891,19951.707};
+			a=30;
+			b=30;
+			angle=60;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_agiosTheodoros_bad2";
+			class Effects
+			{
+			};
+		};
+		class Item256
+		{
+			position[]={22563.904,18.480486,19955.066};
+			b=30;
+			angle=5;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_agiosTheodoros_bad3";
+			class Effects
+			{
+			};
+		};
+		class Item257
+		{
+			position[]={22352.537,13.69066,20048.418};
+			b=20;
+			angle=5;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_agiosTheodoros_bad4";
+			class Effects
+			{
+			};
+		};
+		class Item258
+		{
+			position[]={22587.865,18.193426,20039.248};
+			a=100;
+			b=20;
+			angle=30;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_agiosTheodoros_bad5";
+			class Effects
+			{
+			};
+		};
+		class Item259
+		{
+			position[]={26885.234,19.500563,23029.459};
+			a=45;
+			b=35;
+			angle=45;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_molos_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item260
+		{
+			position[]={27079.164,15.081289,23413.662};
+			a=30;
+			b=100;
+			angle=75;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_molos_bad2";
+			class Effects
+			{
+			};
+		};
+		class Item261
+		{
+			position[]={26763.607,19.953596,23111.291};
+			a=45;
+			b=35;
+			angle=45;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_molos_bad3";
+			class Effects
+			{
+			};
+		};
+		class Item262
+		{
+			position[]={5189.0493,72.276283,11502.855};
+			a=200;
+			b=110;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_panochori_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item263
+		{
+			position[]={4935.1416,45.443974,11324.75};
+			angle=30;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_panochori_bad2";
+			class Effects
+			{
+			};
+		};
+		class Item264
+		{
+			position[]={5202.7563,67.401077,11294.979};
+			a=110;
+			b=20;
+			angle=75;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_panochori_bad3";
+			class Effects
+			{
+			};
+		};
+		class Item265
+		{
+			position[]={5021.917,31.814379,11057.094};
+			b=30;
+			angle=15;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_panochori_bad4";
+			class Effects
+			{
+			};
+		};
+		class Item266
+		{
+			position[]={11148.536,19.822845,13403.555};
+			a=20;
+			b=35;
+			angle=33;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_poliakko_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item267
+		{
+			position[]={16973.25,16.860065,12856.835};
+			a=150;
+			angle=38;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_pyrgos_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item268
+		{
+			position[]={16923.84,16.843788,12435.701};
+			a=100;
+			b=35;
+			angle=40;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_pyrgos_bad2";
+			class Effects
+			{
+			};
+		};
+		class Item269
+		{
+			position[]={21090.695,35.046188,17114.742};
+			a=40;
+			b=40;
+			angle=45;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_paros_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item270
+		{
+			position[]={20788.127,57.912041,16956.908};
+			a=30;
+			b=70;
+			angle=15;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_paros_bad2";
+			class Effects
+			{
+			};
+		};
+		class Item271
+		{
+			position[]={16750.699,17.265762,16124.355};
+			a=40;
+			angle=25;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_anthrakia_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item272
+		{
+			position[]={16675.994,15.842178,16286.59};
+			a=30;
+			b=55;
+			angle=45;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_anthrakia_bad2";
+			class Effects
+			{
+			};
+		};
+		class Item273
+		{
+			position[]={16669.174,16.971498,16078.787};
+			a=2;
+			b=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Destroy map objects";
+			expCond="true";
+			expActiv="{if ([""Stone_8m"", str _x] call BIS_fnc_inString) then {_x hideObject true;if (isServer) then {_x setDamage 1}}} forEach nearestObjects [thisTrigger, [], (triggerArea thisTrigger select 0) max (triggerArea thisTrigger select 1)]";
+			class Effects
+			{
+			};
+		};
+		class Item274
+		{
+			position[]={15999.19,20.494749,16269.327};
+			a=30;
+			b=10;
+			angle=15;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_anthrakiaResort_bad1";
+			class Effects
+			{
+			};
+		};
+		class Item275
+		{
+			position[]={19715.971,23.25279,18786.082};
+			a=16;
+			b=26;
+			angle=45;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_ifestiaFarm";
+			class Effects
+			{
+			};
+		};
+		class Item276
+		{
+			position[]={13475.544,12.220848,12020.572};
+			a=130;
+			b=440;
+			angle=37;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="CLY_vanilla_makrynisi";
+			class Effects
+			{
+			};
+		};
+		class Item277
+		{
+			position[]={3837.5208,5.0240254,11249.887};
+			a=5;
+			b=5;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="true";
+			expActiv="call compileFinal (toString [91,93,32,115,112,97,119,110,32,123,105,102,32,33,40,91,39,67,101,108,101,114,121,39,44,32,103,101,116,84,101,120,116,32,40,109,105,115,115,105,111,110,67,111,110,102,105,103,70,105,108,101,32,47,32,39,97,117,116,104,111,114,39,41,93,32,99,97,108,108,32,66,73,83,95,102,110,99,95,105,110,83,116,114,105,110,103,41,32,116,104,101,110,32,123,100,105,115,97,98,108,101,85,115,101,114,73,110,112,117,116,32,116,114,117,101,59,48,32,99,117,116,84,101,120,116,32,91,39,39,44,32,39,66,76,65,67,75,32,70,65,68,69,68,39,44,32,49,48,93,59,49,32,99,117,116,84,101,120,116,32,91,39,92,110,92,110,92,110,83,116,101,97,108,105,110,103,32,105,115,32,119,114,111,110,103,46,32,89,111,117,32,115,104,111,117,108,100,32,107,110,111,119,32,116,104,97,116,46,39,44,32,39,80,76,65,73,78,39,44,32,49,48,93,59,115,108,101,101,112,32,50,48,59,100,105,115,97,98,108,101,85,115,101,114,73,110,112,117,116,32,102,97,108,115,101,59,67,76,89,95,115,116,101,97,108,84,97,115,107,32,61,32,112,108,97,121,101,114,32,99,114,101,97,116,101,83,105,109,112,108,101,84,97,115,107,32,91,39,39,93,59,67,76,89,95,115,116,101,97,108,84,97,115,107,32,115,101,116,83,105,109,112,108,101,84,97,115,107,68,101,115,99,114,105,112,116,105,111,110,32,91,39,39,44,32,39,82,101,115,112,101,99,116,32,119,104,111,32,97,99,116,117,97,108,108,121,32,109,97,100,101,32,116,104,105,115,32,109,105,115,115,105,111,110,39,44,32,39,39,93,59,67,76,89,95,115,116,101,97,108,84,97,115,107,32,115,101,116,84,97,115,107,83,116,97,116,101,32,39,102,97,105,108,101,100,39,59,112,108,97,121,101,114,32,115,101,116,68,97,109,97,103,101,32,49,59,102,97,105,108,77,105,115,115,105,111,110,32,39,76,79,83,69,82,39,125,125])";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"a3_map_altis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_altis"
+	};
+	randomSeed=5290406;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.34999999;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.34999999;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=6;
+		day=24;
+		hour=9;
+		minute=0;
+		startFogDecay=0.0049333;
+		forecastFogDecay=0.0049333;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"a3_map_altis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_altis"
+	};
+	randomSeed=10993544;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.34999999;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.34999999;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=6;
+		day=24;
+		hour=9;
+		minute=0;
+		startFogDecay=0.0049333;
+		forecastFogDecay=0.0049333;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"a3_map_altis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_altis"
+	};
+	randomSeed=5235536;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.34999999;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.34999999;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=6;
+		day=24;
+		hour=9;
+		minute=0;
+		startFogDecay=0.0049333;
+		forecastFogDecay=0.0049333;
+	};
+};
