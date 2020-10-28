@@ -1,2 +1,2 @@
 # Arma3Missions
-These are all the missions I've worked on for Combined Arms, personally hosted. Both V+ and Main repo versions.
+These are all the missions I've worked on for Combined Arms, personally hosted. Both V+ and Main repo versions. Assume if you are requesting one of these at a later date than upload that it is non functional on Main unless tested otherwise. V+ versions should always work as they use entirely vanilla assets and terrains. The folders also function as a timeline for myself, just because a folder is present does not mean it is a complete mission. Inquire with myself to find out if something is able to be packed, uploaded and played beforehand.
